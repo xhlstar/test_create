@@ -1,0 +1,7 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="test_repo"
+           fetch="git@github.com:xhlstar/test_create.git" />
+
+</manifest>
