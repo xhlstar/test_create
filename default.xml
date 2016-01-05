@@ -3,6 +3,10 @@
   <remote  name="helloworld"
            fetch="git@github.com:xhlstar/hello-world.git" />
   <default revision="master"
-           remote="helloworld" />           
+           remote="helloworld" />       
+           
+           
+           
+  <project path="testbranch" name="helloworld/test" />         
 
 </manifest>
