@@ -7,6 +7,6 @@
            
            
            
-  <project path="testbranch" name="helloworld/test" />         
+  <project path="testbranch" name="helloworld/testbranch" />         
 
 </manifest>
