@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="helloworld"
-           fetch="git@github.com:xhlstar/hello-world.git" />
-  <default revision="master"
-           remote="helloworld" />       
+   <remote  name="github-ssh"
+	    fetch="ssh://git@github.com" />
+   <remote  name="github-git"
+            fetch="git://github.com" />
+   <remote  name="github-https"
+            fetch="https://github.com" />
+   <remote  name="github-http"
+            fetch="http://github.com" />	  
+   <remote  name="helloworld"
+	    fetch="https://github.com" />
+   <default revision="master"
+            remote="github-https" />       
            
-           
-           
-  <project path="testbranch" name="helloworld/testbranch" />         
-
+   <project path="hello-world" name="xhlstar/hello-world.git" />         
+   <project path="test_create" name="xhlstar/test_create.git" />         
 </manifest>
