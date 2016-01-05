@@ -1,7 +1,8 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="test_repo"
-           fetch="git@github.com:xhlstar/test_create.git" />
+  <remote  name="helloworld"
+           fetch="git@github.com:xhlstar/hello-world.git" />
+  <default revision="master"
+           remote="helloworld" />           
 
 </manifest>
